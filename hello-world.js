@@ -2,4 +2,8 @@ const greeting = () => {
   return 'Hello World'
 }
 
-if (require.main  === module)
+if (require.main  === module){
+  console.log(helloWorld())
+} else {
+  module.exports = helloWorld 
+}
