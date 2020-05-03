@@ -1,0 +1,32 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-05-03T03:09:50.075Z",
+    "end": "2020-05-03T03:09:50.082Z",
+    "duration": 7
+  },
+  "tests": [
+    {
+      "title": "must match Hello World",
+      "fullTitle": "hello-world method in hello-world.js must match Hello World",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "must match Hello World",
+      "fullTitle": "hello-world method in hello-world.js must match Hello World",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
