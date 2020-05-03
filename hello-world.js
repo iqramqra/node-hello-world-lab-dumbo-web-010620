@@ -3,7 +3,7 @@ const greeting = () => {
 }
 
 if (require.main  === module){
-  console.log(helloWorld())
+  console.log(greeting())
 } else {
-  module.exports = helloWorld 
+  module.exports = greeting 
 }
